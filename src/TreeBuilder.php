@@ -31,7 +31,9 @@ class TreeBuilder implements TreeBuilderInterface
      */
     public function __construct(TreeNodeInterface $node = null)
     {
-        $this->add($node);
+        if (!empty($node)) {
+            $this->add($node);
+        }
     }
 
     /**
@@ -55,8 +57,9 @@ class TreeBuilder implements TreeBuilderInterface
         }
         else {
             $this->current->addChild($node);
-            $this->push($node);
         }
+        
+        $this->push($node);
 
         return $this;
     }
