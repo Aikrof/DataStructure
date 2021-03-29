@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Test\DataStructure\Interfaces;
+namespace Voxonics\Data\Structure\Interfaces;
 
-use App\Test\DataStructure\Tree\Interfaces\TreeNodeInterface;
+use Voxonics\Data\Structure\Tree\Interfaces\TreeNodeInterface;
 
 /**
  * Interface HeadInterface

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace App\Test\DataStructure\Traits;
+namespace Voxonics\Data\Structure\Traits;
 
-use App\Test\DataStructure\Interfaces\HeadInterface;
-use App\Test\DataStructure\Tree\Interfaces\TreeNodeInterface;
+use Voxonics\Data\Structure\Interfaces\HeadInterface;
+use Voxonics\Data\Structure\Tree\Interfaces\TreeNodeInterface;
 
 /**
  * Trait HeadTreeTrait

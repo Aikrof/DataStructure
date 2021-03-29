@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\Test\DataStructure\Tree;
+namespace Voxonics\Data\Structure\Tree;
 
-use App\Test\DataStructure\Tree\Interfaces\TreeNodeInterface;
+use Voxonics\Data\Structure\Tree\Interfaces\TreeNodeInterface;
 
 /**
  * Class TreeNode

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Test\DataStructure\Tree\Interfaces;
+namespace Voxonics\Data\Structure\Tree\Interfaces;
 
 /**
  * Interface TreeNodeInterface

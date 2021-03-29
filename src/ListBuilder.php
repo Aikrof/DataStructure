@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Test\DataStructure;
+namespace Voxonics\Data\Structure;
 
 /**
  * Class ListBuilder
